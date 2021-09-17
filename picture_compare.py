@@ -22,6 +22,6 @@ for c in cnts:
     cv2.rectangle(imageA, (x, y), (x + w, y + h), (0, 255, 0), 2)
     cv2.rectangle(imageB, (x, y), (x + w, y + h), (0, 255, 0), 2)
 # 用cv2.imshow 展现最终对比之后的图片， cv2.imwrite 保存最终的结果图片
-cv2.imshow("Modified", imageB)
+# cv2.imshow("Modified", imageB)
 cv2.imwrite(r"result.bmp", imageB)
 # cv2.waitKey(0)
